@@ -1,20 +1,27 @@
-# built application files
+#Buit app files
 *.apk
 *.ap_
 
-# files for the dex VM
+#Files for dex VM
 *.dex
 
-# Java class files
+#Class files
 *.class
 
-# generated files
+#generated garbage
 bin/
 gen/
 
-# Local configuration file (sdk path, etc)
 local.properties
 
-# Eclipse project files
+#Eclipse files
 .classpath
 .project
+
+proguard/
+
+#intelliJ project files -- don't think I need, but hey
+*.imi
+*.ipr
+*.iws
+.idea/
